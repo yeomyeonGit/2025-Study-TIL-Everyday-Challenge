@@ -1,1 +1,3 @@
-# 2025년 1월 3일 마크다운을 공부했습니다.
+*250108
+  **Python 기본: ~for, while까지
+  ***복습할 것: 윤년 판별 로직, for-else, while-else break 시 모습
