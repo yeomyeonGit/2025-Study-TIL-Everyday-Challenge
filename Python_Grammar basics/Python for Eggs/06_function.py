@@ -45,8 +45,3 @@ def gugudan():
         a += 1
     
 
-
-        
-
-
-gugudan()
