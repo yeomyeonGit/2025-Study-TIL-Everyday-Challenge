@@ -77,3 +77,21 @@ sum0fDigits(123456)
 
 '''
 
+#연습 문제 5
+
+score = [0, 0, 2, 4, 7, 7, 9]
+score += [11, 11, 13, 18]
+score += [20]
+
+stem_leaf = [[], [], []]
+
+for num in score:
+    if num < 10:
+        stem_leaf[0].append(num)
+    elif num < 20:
+        stem_leaf[1].append(num % 10)
+    else:
+        stem_leaf[2].append(num % 20)
+
+for i in range(len(stem_leaf)):
+    print(f'{i}:', stem_leaf[i])
