@@ -109,11 +109,12 @@ def read(text):
 
     return ridename, cmmin, cmmax
 
-a = input('놀이 기구: ')
+# a = input('놀이 기구: ')
 
-if __name__ == "__main__":
-    ridename, cmmin, cmmax = read(a)
-    print("이름:", ridename)
-    print("하한:", cmmin)
-    print("상한:", cmmax)
+# if __name__ == "__main__":
+#     ridename, cmmin, cmmax = read(a)
+#     print("이름:", ridename)
+#     print("하한:", cmmin)
+#     print("상한:", cmmax)
 
+print(type(ridename))
