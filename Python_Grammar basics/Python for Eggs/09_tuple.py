@@ -58,7 +58,7 @@ if len(dmy) != 3:
     print("날짜를 형식에 맞게 입력해주세요")
 
 else:
-    year, month, day = dmy
+    year, month, day = dmy #리스트를 튜플 언패킹. dmy 리스트의 원소 하나하나를 할당
 
     if len(year) != 4:
         print("연도를 네 자리로 입력하세요.")
