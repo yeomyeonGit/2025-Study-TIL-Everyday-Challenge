@@ -47,9 +47,9 @@ def sum0f2(x, y):
 
     """
 
-# 연습 문제 2
+# 연습 문제 2 - else 없을 때 if문
 
-
+'''
 date = input("날짜 입력: ")
 
 dmy = date.split()
@@ -60,18 +60,20 @@ if len(dmy) != 3:
 else:
     year, month, day = dmy
 
-
     if len(year) != 4:
-        print('연도를 네 자리로 입력하세요.')
+        print("연도를 네 자리로 입력하세요.")
 
     else:
         if len(month) == 1:
             month = "0" + month
-
+            
         if len(day) == 1:
             day = "0" + day
-            
+
+
         print(f"{year}/{month}/{day}")
+
+        '''
 
 
 """
@@ -91,3 +93,30 @@ if len(dmy[0]) == 4:
 else:
     print('error!')
     """
+
+#연습 문제 3 - 입력 받은 수를 사칙연산: 초기값 설정, 리스트를 슬라이싱해서 횔용 가능
+
+numbers = input('숫자 입력(띄어쓰기로 구분하세요): ')
+
+numbers_ready = numbers.split()
+
+addition = int(numbers_ready[0])
+subtraction = int(numbers_ready[0])
+multiplication = int(numbers_ready[0])
+division = int(numbers_ready[0])
+
+for i in numbers_ready[1:]:
+        addition += int(i)
+        subtraction -= int(i)
+        multiplication *= int(i)
+        division /= int(i)
+
+print(addition, subtraction, multiplication, division)
+
+#초기값을 잘 설정하자.
+
+
+#1. 입력을 받는다 (문자열)
+#2. 입력 받은 것을 나눈다.
+#3. 나눈 것을 숫자로 바꾼다.
+#4. 숫자끼리 더한다/뺀다/곱한다/나눈다
