@@ -1,3 +1,19 @@
+'''
+dic = {}
+dic['dictionary'] = '1. A reference book containing an ...'
+dic['python'] = 'A snake of Plato'
+
+del dic['python'] #딕셔너리 삭제
+
+print(dic)
+
+'''
+
+family = {'mom': 'Park', 'dad': 'Choi', 'daughter': 'Conzato'}
+family['dad'] = 'Yoon'
+print(family)
+
+
 #연습 문제 1
 
 def korean_number(x):
