@@ -78,7 +78,7 @@ sum0fDigits(123456)
 '''
 
 #연습 문제 5
-
+'''
 score = [0, 0, 2, 4, 7, 7, 9]
 score += [11, 11, 13, 18]
 score += [20]
@@ -95,3 +95,23 @@ for num in score:
 
 for i in range(len(stem_leaf)):
     print(f'{i}:', stem_leaf[i])
+'''
+
+#연습 문제 6
+'''
+map(함수, 리스트)
+
+map(lambda x: x ** 2, range(5))             # 파이썬 2
+[0, 1, 4, 9, 16]  
+
+'''
+
+def sum0fDigits1(num):
+    numbers = str(num)
+    a = 0
+    for i in numbers:
+        a += int(i)
+    
+    return a
+
+
