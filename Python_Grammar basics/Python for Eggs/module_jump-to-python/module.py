@@ -9,3 +9,10 @@ import mod1
 # print(mod1.__name__)
 
 
+#클래스나 변수 등을 포함한 모듈 mod2.py 파일로 연습 중
+
+import mod2
+
+# print(mod2.add(mod2.PI, 4.4))
+
+#sys.path.append 사용하기
