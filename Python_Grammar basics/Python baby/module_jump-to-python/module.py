@@ -15,4 +15,4 @@ import mod2
 
 # print(mod2.add(mod2.PI, 4.4))
 
-#sys.path.append 사용하기
+#sys.path.append 사용하기. 안되면 캐시 폴더 없애 보기.
